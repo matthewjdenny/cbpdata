@@ -1,0 +1,24 @@
+Package: cbpdata
+Type: Package
+Title: Congressional Bills Bulk Data Collection
+Version: 0.1.0
+Author: Matthew J. Denny <matthewjdenny@gmail.com>
+Maintainer: Matthew J. Denny <matthewjdenny@gmail.com>
+Description: This package will generate the entire up to date version
+    of the Congressional Bills Project Data from scratch, and keep it
+    updated.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    httr,
+    XML,
+    stringr
+Depends:
+    R (>= 3.6.0)
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
